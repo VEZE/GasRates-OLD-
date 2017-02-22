@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        tools:text="       Выберите тип топлива"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:text="  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_weight="0.04" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="231dp"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:text="Бензин АИ-95"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/radioButton3"
+            android:layout_height="61dp" />
+
+        <RadioButton
+            android:text="Дизтопливо Евро"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:gravity="center"
+            android:id="@+id/radioButton4"
+            android:checked="false" />
+
+        <RadioButton
+            android:text="ДТ-З-К5 класс 1"
+            android:layout_width="match_parent"
+            android:id="@+id/radioButton5"
+            android:gravity="center"
+            android:layout_height="61dp" />
+
+        <RadioButton
+            android:text="Бензин АИ-92"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:id="@+id/radioButton2"
+            android:layout_height="61dp" />
+    </RadioGroup>
+
+    <TextView
+        android:text="  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:maxLength="1"
+        android:gravity="center"
+        android:id="@+id/azsID"
+        android:hint="Введите номер колонки" />
+
+
+    <TextView
+        android:text="  "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_weight="0.07" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/Summ"
+        android:hint="Введите сумму" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8" />
+
+    <Button
+        android:text="Оплатить"
+        android:background="#000"
+        android:textColor="#b2b2b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:elevation="0dp"
+        tools:onClick="onClear" />
+
+</LinearLayout>

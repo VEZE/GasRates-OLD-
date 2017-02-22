@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gas Rates</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="action_settings">Изменить избранное</string>
+
+    <string-array name="CurrencysList">
+        <item>Бензин АИ-92</item>
+        <item>Бензин АИ-95</item>
+        <item>Дизтопливо Евро</item>
+        <item>ДТ-З-К5 класс 1</item>
+    </string-array>
+
+    <string-array name="BanksList">
+        <item>А-100</item>
+        <item>Беларусьнефть</item>
+        <item>Газпромнефть</item>
+        <item>Лукоил</item>
+        <item>Юнайтед компани</item>
+        <item>Славнефть</item>
+        <item>Трайпл</item>
+    </string-array>
+
+</resources>
